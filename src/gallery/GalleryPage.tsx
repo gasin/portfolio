@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 
-function HobbyPage() {
+function GalleryPage() {
     return (
         <Fragment>
-            <h2>Hobby</h2>
+            <h2>Gallery</h2>
             <p>気が向いたら書く</p>
         </Fragment>
     )
 }
 
-export default HobbyPage;
+export default GalleryPage;
