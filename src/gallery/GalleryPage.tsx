@@ -4,7 +4,8 @@ function GalleryPage() {
     return (
         <Fragment>
             <h2>Gallery</h2>
-            <p>気が向いたら書く</p>
+            過去に書いた絵。
+            <p>気が向いたら貼る</p>
         </Fragment>
     )
 }
