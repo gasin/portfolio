@@ -8,10 +8,6 @@ function GalleryPage() {
     {"id": 3, "name": "chenso", "path": require("../assets/gallery/chenso.png"), "description": "チェンソーマン模写"},
   ];
 
-  const imgPath = (fileName: string) => (
-    "../assets/gallery/" + fileName
-  );
-
   return (
     <Fragment>
       <h2>Gallery</h2>

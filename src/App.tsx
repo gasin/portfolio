@@ -1,4 +1,5 @@
 import './App.css';
+import GitHubLogo from './assets/github-mark.png';
 
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import HomePage from './home/HomePage'
@@ -13,6 +14,11 @@ function App() {
         <NavLink to="/" className="button rounded">Home</NavLink>
         <NavLink to="/gallery" className="button rounded">gallery</NavLink>
         <NavLink to="/resume" className="button rounded">resume</NavLink>
+        <span className="logo">
+          <a href="https://github.com/gasin/portfolio">
+            <img src={GitHubLogo} alt="GitHub" style={{height: "65%"}}></img>
+          </a>
+        </span>
       </header>
       <div className="container">
         <Routes>
